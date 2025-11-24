@@ -11,7 +11,7 @@ Retrieval Augmented Generation LLM Chatbot
     - [ ] Uses a `SYSTEM_PROMPT`
     - [ ] Uses a `context_schema`
     - [ ] Uses `checkpoints`
-- [ ] ????
+- [X] Robust custom logging (python logger w pprint, blacklist, and noisy_list)
 
 ## Goals 
 
