@@ -12,6 +12,9 @@ Retrieval Augmented Generation LLM Chatbot
     - [ ] Uses a `context_schema`
     - [ ] Uses `checkpoints`
 - [X] Robust custom logging (python logger w pprint, blacklist, and noisy_list)
+- [X] Create a dynamic model agent.
+    - [X] set messages threshold to >1 to switch models. Got Claude AND Gemini working in 1 question.
+- [ ] Add storage to advanced agent.
 
 ## Goals 
 

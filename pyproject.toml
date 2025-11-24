@@ -5,8 +5,11 @@ description = "RAGBot"
 readme = "README.md"
 requires-python = ">=3.14"
 dependencies = [
+    "google-crc32c>=1.7.1",
     "langchain>=1.0.8",
     "langchain-anthropic>=1.1.0",
+    "langchain-google>=0.1.1",
+    "langchain-google-vertexai>=3.1.0",
 ]
 
 [project.scripts]

@@ -1,5 +1,4 @@
 from langchain.agents import create_agent
-from langchain_core.messages import AIMessage
 
 class WeatherBasicAgent:
     def __init__(self):
@@ -20,11 +19,6 @@ class WeatherBasicAgent:
             resp = self.agent.invoke(
                     {"messages": [{"role": "user", "content": content}]}
             )
-            messages = resp['messages']
-            msgs = []
-            for msg in messages:
-                if msg['AIMessage']:
-                    msgs.append(msg['content'])
 
             return resp
         except Exception as e:
