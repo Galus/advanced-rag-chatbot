@@ -15,6 +15,7 @@ Retrieval Augmented Generation LLM Chatbot
 - [X] Create a dynamic model agent.
     - [X] set messages threshold to >1 to switch models. Got Claude AND Gemini working in 1 question.
 - [ ] Add storage to advanced agent.
+    - [ ] Swap out InMemorySaver checkpoint to sqlite for persistint session.
 
 ## Goals 
 
