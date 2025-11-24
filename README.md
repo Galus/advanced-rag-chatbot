@@ -1,6 +1,18 @@
 # advanced-rag-chatbot
 Retrieval Augmented Generation LLM Chatbot
 
+## Accomplished
+- [X] Weather Basic Agent
+    - [X] Uses static/canned "it is sunny" weather `tool`.
+- [ ] Weather Advanced Agent
+    - [ ] Uses weather tool (`tool` learning)
+    - [ ] Uses user location tool (`tool` learning)
+    - [ ] Speaks in riddles (`responses` learning)
+    - [ ] Uses a `SYSTEM_PROMPT`
+    - [ ] Uses a `context_schema`
+    - [ ] Uses `checkpoints`
+- [ ] ????
+
 ## Goals 
 
 Build an Advanced RAG Chatbot (Single Agent)
