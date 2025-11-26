@@ -14,6 +14,7 @@ claude = init_chat_model(
 gemini = init_chat_model(
     "gemini-2.5-flash",
     temperature=float(os.environ["MODEL_TEMP"]),
+    timeout=10,
     max_tokens=1000,
     max_retries=2
 )
