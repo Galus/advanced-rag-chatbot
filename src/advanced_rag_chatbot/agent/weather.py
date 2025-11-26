@@ -24,7 +24,7 @@ class WeatherAgent:
     def __init__(self):
         self.agent = create_agent(
             model=claude,
-            tools=[get_user_location, get_weather_for_location],
+            tools=[get_user_location, get_user_role, get_weather_for_location],
             system_prompt=SYSTEM_PROMPT,
             response_format=ToolStrategy(CustomResponseFormat),
             context_schema=Context, # pyright: ignore
