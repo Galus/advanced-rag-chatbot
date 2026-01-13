@@ -25,9 +25,14 @@ def main():
     log.info("MultiModel Agent")
     weather_agent_v3 = WeatherAgent()
     log.info("Ask the agent about the weather in some area.")
-    user_text = input()
-    resp = weather_agent_v3.invoke(user_text)
-    log.info(resp)
+
+    while True:
+        user_text = input()
+        if user_text.lower() in ["exit", "quit"]:
+            break;
+
+        resp = weather_agent_v3.invoke(user_text)
+        log.info(resp)
 
     print("Goodbye from advanced-rag-chatbot!")
 

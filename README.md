@@ -14,12 +14,13 @@ Retrieval Augmented Generation LLM Chatbot
 - [X] Robust custom logging (python logger w pprint, blacklist, and noisy_list)
 - [X] Create a dynamic model agent.
     - [X] set messages threshold to >1 to switch models. Got Claude AND Gemini working in 1 question.
-- [ ] Add storage to advanced agent.
-    - [ ] Swap out InMemorySaver checkpoint to sqlite for persistint session.
 - [X] Advanced agent tool hallucination and loop fix
     - [X] agent.invoke(config=max_iterations:3) doesnt work
     - [X] maybe a middleware solution?
         - [X] Impl'd a middlewar loop detected for tool_calls
+- [o] Add storage to advanced agent.
+    - [X] Swap out InMemorySaver checkpoint to sqlite for persistint session.
+    - [ ] Get ragbot to remember the last question i asked it.
 
 ## Goals 
 
